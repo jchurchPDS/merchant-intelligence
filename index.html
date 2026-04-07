@@ -3446,11 +3446,12 @@ canvas { max-width: 100%; }
   font-size: 11px; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.14em; color: var(--accent); margin-bottom: 10px;
 }
-/* Hero subhead */
-.ov3-hero-subhead {
+/* Source note above hero tiles */
+.ov3-source-note {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 15px; font-weight: 400; color: var(--muted);
-  line-height: 1.65; margin-top: 12px;
+  font-size: 12px; font-weight: 400; color: var(--muted);
+  line-height: 1.5; margin-top: 20px; margin-bottom: 12px;
+  opacity: 0.75; text-wrap: balance;
 }
 /* Stats tile supporting line */
 .ov3-st-support {
@@ -3466,8 +3467,9 @@ canvas { max-width: 100%; }
   letter-spacing: -0.015em;
   line-height: 1.1;
   margin-top: 32px;
-  margin-bottom: 0;
+  margin-bottom: 40px;
   color: var(--text);
+  text-align: center;
 }
 /* Italic accent word in headline */
 .ov3-em {
@@ -3481,8 +3483,8 @@ canvas { max-width: 100%; }
   display: flex; align-items: center; gap: 16px;
   margin: 68px 0 28px;
 }
-.ov3-act-strip:first-of-type { margin-top: 44px; }
-.ov3-act-rule { flex: 1; height: 1px; background: var(--border); }
+.ov3-act-strip:first-of-type { margin: 0; }
+.ov3-act-rule { display: none; }
 .ov3-act-title {
   font-family: 'Instrument Sans', sans-serif;
   font-size: 11px; font-weight: 700;
@@ -3842,13 +3844,9 @@ canvas { max-width: 100%; }
 
 <div id="page-overview" class="page active">
 
-  <div class="page-headline">The POS knows everything, but it says <em class="ov3-em">nothing</em>.</div>
-  <div class="ov3-hero-subhead">Primary research with 308 SpotOn restaurant merchants across two studies: operators, front-of-house, and back-of-house staff. One consistent signal: the intelligence they need already lives in the system. It just doesn't reach the right person at the right moment.</div>
+  <div class="page-headline">The POS knows. The team still <em class="ov3-em">guesses</em>.</div>
 
-  <!-- ── ACT 1 ─────────────────────────────────────────── -->
-  <div class="ov3-act-strip">
-    <div class="ov3-act-rule"></div>
-  </div>
+  <div class="ov3-source-note">* This overview synthesizes two quantitative studies of restaurant professionals: SpotOn merchants and external industry panels. More studies will be added over time.</div>
 
   <div class="ov3-act1">
 
